@@ -1,0 +1,17 @@
+{
+  "name": "wedding-website",
+  "version": "0.1.0",
+  "description": "A wedding website to learn front-end design.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kevin Hu",
+  "license": "ISC",
+  "dependencies": {
+    "babel-preset-react": "^6.5.0",
+    "babelify": "^7.3.0",
+    "react": "^15.0.2",
+    "react-dom": "^15.0.2"
+  }
+}
