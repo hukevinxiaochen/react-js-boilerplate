@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "description": "A wedding website to learn front-end design.",
   "main": "index.js",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/hukevinxiaochen/react-js-boilerplate"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
