@@ -71,3 +71,7 @@ In order of how we want things to appear on a sidebar widget.
 ### Registry
 
 * Link(s) to registry/registries
+  - <https://thankfulregistry.com/>
+  - <http://www.simpleregistry.com/>
+  - <http://www.womangettingmarried.com/best-online-wedding-registry/>
+
