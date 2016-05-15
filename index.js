@@ -11,17 +11,33 @@ var ReactDOM = require('react-dom');
 var injectTapEventPlugin = require("react-tap-event-plugin");
 injectTapEventPlugin();
 
+// Import Material-UI stuff
+import getMuiTheme from 'material-ui/styles/getMuiTheme';
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import MyAwesomeReactComponent from './MyAwesomeReactComponent';
+
 // React Components
 
-var HelloWorld = React.createClass({
-    render: function () {
-        return(<h1>Hello World</h1>);
-    }
-});
+// var HelloWorld = React.createClass({
+//     render: function () {
+//         return(<h1>Hello World</h1>);
+//     }
+// });
+
+const App = () => (
+    <MuiThemeProvider muiTheme={getMuiTheme()}>
+    <MyAwesomeReactComponent />
+    </MuiThemeProvider>
+);
 
 // Render
 
 ReactDOM.render(
-    <HelloWorld />,
-    document.getElementById('greeting')
+    <App />,
+    document.getElementById('app')
 );
+
+// ReactDOM.render(
+//     <HelloWorld />,
+//     document.getElementById('greeting')
+// );
