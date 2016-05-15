@@ -2,3 +2,5 @@ node_modules
 bundle.js
 *.swp
 output.css
+output.css.map
+.sass-cache
