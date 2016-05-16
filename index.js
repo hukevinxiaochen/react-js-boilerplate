@@ -15,6 +15,7 @@ injectTapEventPlugin();
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import MyAwesomeReactComponent from './MyAwesomeReactComponent';
+import SideBar from './sidebar';
 
 // React Components
 
@@ -26,7 +27,7 @@ import MyAwesomeReactComponent from './MyAwesomeReactComponent';
 
 const App = () => (
     <MuiThemeProvider muiTheme={getMuiTheme()}>
-    <MyAwesomeReactComponent />
+    <SideBar />
     </MuiThemeProvider>
 );
 
