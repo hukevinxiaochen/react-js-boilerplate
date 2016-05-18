@@ -1,11 +1,26 @@
 import React from 'react';
 import Drawer from 'material-ui/Drawer';
 import MenuItem from 'material-ui/MenuItem';
+import Link from 'react-router/lib/Link';
+import IndexLink from 'react-router/lib/IndexLink'
 
-const SideBar = () => (
-    <Drawer>
-    <MenuItem>Welcome</MenuItem>
-    <MenuItem>About Us</MenuItem>
-    </Drawer>
-);
+var drawerStyle = { top: "60px" };
+
+var SideBar = React.createClass({
+    render: function () {
+        return (
+            <Drawer width={200} style={drawerStyle}>
+                <IndexLink to="/"><MenuItem>Home</MenuItem></IndexLink>
+                <Link to="/about-us"><MenuItem>About Us</MenuItem></Link>
+                <MenuItem>Wedding Party</MenuItem>
+                <MenuItem>Ceremony &amp; Reception</MenuItem>
+                <MenuItem>Accommodations</MenuItem>
+                <MenuItem>Transportation</MenuItem>
+                <MenuItem>Things To Do</MenuItem>
+                <MenuItem>Registry</MenuItem>
+            </Drawer>
+        );
+    }
+});
+
 export default SideBar;

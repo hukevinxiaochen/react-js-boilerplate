@@ -12,31 +12,25 @@ var injectTapEventPlugin = require("react-tap-event-plugin");
 injectTapEventPlugin();
 
 // Import Material-UI stuff
-import getMuiTheme from 'material-ui/styles/getMuiTheme';
-import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-import MyAwesomeReactComponent from './MyAwesomeReactComponent';
-import SideBar from './sidebar';
+import App from './app';
+import Home from './home';
+import AboutUs from './aboutUs';
 
-// React Components
-
-// var HelloWorld = React.createClass({
-//     render: function () {
-//         return(<h1>Hello World</h1>);
-//     }
-// });
-
-const App = () => (
-    <MuiThemeProvider muiTheme={getMuiTheme()}>
-    <SideBar />
-    </MuiThemeProvider>
-);
+// React Router
+import Router from 'react-router/lib/Router';
+import Route from 'react-router/lib/Route';
+import hashHistory from 'react-router/lib/hashHistory';
+import IndexRoute from 'react-router/lib/IndexRoute';
 
 // Render
-
-ReactDOM.render(
-    <App />,
-    document.getElementById('app')
-);
+ReactDOM.render((
+    <Router history={hashHistory}>
+        <Route path="/" component={App}>
+            <IndexRoute component={Home}/> 
+            <Route path="/about-us" component={AboutUs}/> 
+        </Route>
+    </Router>
+), document.getElementById('app'));
 
 // ReactDOM.render(
 //     <HelloWorld />,
