@@ -3,13 +3,7 @@ a {
 }
 
 section {
-	padding-left: 200px;	
-}
-
-aside {
-	position: fixed;
-	max-width: 200px;
-	top: 60px;
+	padding-left: 200px;
 }
 
 .feature {

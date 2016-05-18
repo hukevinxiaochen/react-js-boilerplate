@@ -4,12 +4,10 @@ import MenuItem from 'material-ui/MenuItem';
 import Link from 'react-router/lib/Link';
 import IndexLink from 'react-router/lib/IndexLink'
 
-var drawerStyle = { top: "60px" };
-
 var SideBar = React.createClass({
     render: function () {
         return (
-            <Drawer width={200} style={drawerStyle}>
+            <Drawer style={{position: "static"}} width={200}>
                 <IndexLink to="/"><MenuItem>Home</MenuItem></IndexLink>
                 <Link to="/about-us"><MenuItem>About Us</MenuItem></Link>
                 <MenuItem>Wedding Party</MenuItem>

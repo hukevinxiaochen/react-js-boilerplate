@@ -12,9 +12,7 @@ var App = React.createClass({
         return(
             <MuiThemeProvider muiTheme={getMuiTheme()}>
                 <div>
-                    <aside> 
-                        <SideBar className="sidebar" />
-                    </aside>
+                    <SideBar className="sidebar" />
                     {this.props.children}
                 </div>
             </MuiThemeProvider>
