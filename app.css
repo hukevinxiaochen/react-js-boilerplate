@@ -1,0 +1,30 @@
+a {
+	text-decoration: none;
+}
+
+section {
+	padding-left: 200px;	
+}
+
+aside {
+	position: fixed;
+	max-width: 200px;
+	top: 60px;
+}
+
+.feature {
+	display: block;
+	max-width: 600px;
+	max-height: 400px;
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+h1, h2, h3 {
+	text-align: center;
+}
+
+h1 {
+	font-size: xx-large;
+}
