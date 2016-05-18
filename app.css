@@ -6,21 +6,8 @@ body {
 	margin: 0;
 }
 
-section {
-	padding-left: 200px;
-}
-
 .content {
 	padding: 5px 30px;
-}
-
-.feature {
-	display: block;
-	max-width: 600px;
-	max-height: 400px;
-	height: auto;
-	margin-right: auto;
-	margin-left: auto;
 }
 
 h1, h2, h3 {
@@ -29,4 +16,31 @@ h1, h2, h3 {
 
 h1 {
 	font-size: xx-large;
+}
+
+// media queries
+
+section {
+	padding-left: 0px;
+}
+
+.feature {
+	display: block;
+	max-width: 300px;
+	max-height: 200px;
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+@media screen and (min-width: 840px) {
+	section {
+		padding-left: 200px;
+	}
+
+	.feature {
+		max-width: 600px;
+		max-height: 400px;
+	}
 }
