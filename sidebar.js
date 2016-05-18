@@ -7,7 +7,7 @@ import IndexLink from 'react-router/lib/IndexLink'
 var SideBar = React.createClass({
     render: function () {
         return (
-            <Drawer style={{position: "static"}} width={200}>
+            <Drawer width={200}>
                 <IndexLink to="/"><MenuItem>Home</MenuItem></IndexLink>
                 <Link to="/about-us"><MenuItem>About Us</MenuItem></Link>
                 <MenuItem>Wedding Party</MenuItem>

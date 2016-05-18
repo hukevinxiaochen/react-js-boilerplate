@@ -2,8 +2,16 @@ a {
 	text-decoration: none;
 }
 
+body {
+	margin: 0;
+}
+
 section {
 	padding-left: 200px;
+}
+
+.content {
+	padding: 5px 30px;
 }
 
 .feature {
