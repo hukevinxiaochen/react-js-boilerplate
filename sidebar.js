@@ -15,7 +15,7 @@ var SideBar = React.createClass({
                 <MenuItem>Accommodations</MenuItem>
                 <MenuItem>Transportation</MenuItem>
                 <MenuItem>Things To Do</MenuItem>
-                <MenuItem>Registry</MenuItem>
+                <Link to="/registry"><MenuItem>Registry</MenuItem></Link>
             </Drawer>
         );
     }

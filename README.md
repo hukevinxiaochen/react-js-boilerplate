@@ -74,4 +74,3 @@ In order of how we want things to appear on a sidebar widget.
   - <https://thankfulregistry.com/>
   - <http://www.simpleregistry.com/>
   - <http://www.womangettingmarried.com/best-online-wedding-registry/>
-

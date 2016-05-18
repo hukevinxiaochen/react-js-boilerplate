@@ -15,6 +15,7 @@ injectTapEventPlugin();
 import App from './app';
 import Home from './home';
 import AboutUs from './aboutUs';
+import Registry from './registry';
 
 // React Router
 import Router from 'react-router/lib/Router';
@@ -26,8 +27,9 @@ import IndexRoute from 'react-router/lib/IndexRoute';
 ReactDOM.render((
     <Router history={hashHistory}>
         <Route path="/" component={App}>
-            <IndexRoute component={Home}/> 
-            <Route path="/about-us" component={AboutUs}/> 
+            <IndexRoute component={Home}/>
+            <Route path="/about-us" component={AboutUs}/>
+            <Route path="/registry" component={Registry}/>
         </Route>
     </Router>
 ), document.getElementById('app'));
