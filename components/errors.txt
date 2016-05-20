@@ -1,0 +1,6 @@
+Error: Cannot find module '/Users/KHU/src/wedding-website/components/index.js' from '/Users/KHU/src/wedding-website/components'
+    at /Users/KHU/.nvm/versions/node/v4.4.4/lib/node_modules/browserify/node_modules/resolve/lib/async.js:55:21
+    at load (/Users/KHU/.nvm/versions/node/v4.4.4/lib/node_modules/browserify/node_modules/resolve/lib/async.js:69:43)
+    at onex (/Users/KHU/.nvm/versions/node/v4.4.4/lib/node_modules/browserify/node_modules/resolve/lib/async.js:92:31)
+    at /Users/KHU/.nvm/versions/node/v4.4.4/lib/node_modules/browserify/node_modules/resolve/lib/async.js:22:47
+    at FSReqWrap.oncomplete (fs.js:82:15)
